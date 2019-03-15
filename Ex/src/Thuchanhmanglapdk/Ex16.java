@@ -25,12 +25,15 @@ public class Ex16 {
         int [] arr = new int [n];
         // mảng random
         // mảng random
-        int b=0;
+        int b=0; int y=10;
+        System.out.println("y bằng"+y);
         int c =n;
         for (int i = 0; i < n; i++) {
             arr[i]=rd.nextInt(500);
+            y=12; System.out.println("y2 bằng" +y);
             if(arr[i]>b){b=arr[i];c=i;} 
         } 
+        System.out.println("y3 bằng"+y);
         show(arr);
         int arr1[]= new int[n+1];
         for (int k=0; k<c+1; k++){
